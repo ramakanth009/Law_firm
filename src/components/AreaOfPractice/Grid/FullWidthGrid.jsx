@@ -8,7 +8,7 @@ import BusinessLaw from "../../../assets/BusinessLaw.svg";
 import PartnershipLaw  from "../../../assets/partnershipLaw.svg";
 import Realestate  from "../../../assets/Realestate.svg";
 import Business2  from "../../../assets/Business2.svg";
-import Landlord  from "../../../assets/Landlord.svg";
+import Landlord  from "../../../assets/Landlord.png";
 import Elder from "../../../assets/Elder.svg";
 import classes from "./fullWidthGrid.module.css";
 
@@ -26,32 +26,32 @@ export default function FullWidthGrid() {
       <Grid container spacing={2}>
         <Grid item xs={6} md={8}>
           <Item className={classes.itemContainer}>
-            <img src={BusinessLaw}/>
+            <img src={BusinessLaw} alt="{BusinessLaw"/>
           </Item>
         </Grid>
         <Grid item xs={6} md={4}>
           <Item className={classes.itemContainer}>
-          <img src={PartnershipLaw}/>
+          <img src={PartnershipLaw} alt="PartnershipLaw"/>
           </Item>
         </Grid>
         <Grid item xs={6} md={4}>
           <Item className={classes.itemContainer}>
-          <img src={Realestate}/>
+          <img src={Realestate} alt="ealestate" />
           </Item>
         </Grid>
         <Grid item xs={6} md={8}>
           <Item className={classes.itemContainer}>
-          <img src={Business2}/>
+          <img src={Business2} alt="Business2"/>
           </Item>
         </Grid>
         <Grid item xs={6} md={8}>
           <Item className={classes.itemContainer}>
-          <img src={Landlord}/>
+          <img src={Landlord} alt="Landlord"/>
           </Item>
         </Grid>
         <Grid item xs={6} md={4}>
           <Item className={classes.itemContainer}>
-          <img src={Elder}/>
+          <img src={Elder} alt="Elder"/>
           </Item>
         </Grid>
       </Grid>

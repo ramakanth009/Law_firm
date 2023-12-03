@@ -32,7 +32,7 @@ const Hero = () => {
               </p>
               <div className={classes.inputButton}>
                 <Email />
-                <input type="text" placeholder="Enter you email address" />
+                <input className={classes.inputbox} type="text" placeholder="Enter you email address" />
                 <button type="submit">Let's Talk</button>
               </div>
             </div>

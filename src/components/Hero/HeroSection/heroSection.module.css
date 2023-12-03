@@ -127,3 +127,6 @@
     flex-shrink: 0;
   }
 }
+ .inputbox::placeholder {
+  color: #4b4545
+}
